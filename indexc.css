@@ -1,0 +1,364 @@
+*{
+   margin:0;
+   padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+
+
+
+body{
+    background:black;
+    margin: 0 30px 0 30px;
+    flex-wrap: wrap;
+}
+
+.portada img{
+    width: 100%;
+    display: flex;
+
+}
+
+
+/*Menu Desplegable*/
+
+header{
+    width: 100%;
+    background: #4e4d4d;
+}
+#btn_menu{
+    display: none;
+}
+header label{
+    width: 100px;
+    display: none;
+    padding: 15px 20px;
+    border-right:1px solid rgb(172, 166, 166) ;
+    color: white;
+    text-align: center;
+}
+
+header label:hover{
+    cursor: pointer;
+    background: rgba(0, 0,0, 0.3);
+}
+
+.menu ul{
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+.menu li:hover{
+    background: rgba(0, 0,0, 0.3);
+}
+.menu li a{
+    display: block;
+    padding: 15px 20px;
+    color: rgba(255, 255, 255, 0.801);
+}
+
+
+/*contenedor principal*/
+
+.Contenedor{
+  
+   width: 100%;      
+   background-image: url(https://st2.depositphotos.com/4018531/6795/i/450/depositphotos_67951755-stock-photo-black-and-white-marble-patterned.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 10px 0 30px 0; 
+   text-align:center;
+  
+     
+     
+}
+.Contenedor > div{
+    flex: 1;
+}
+
+/*Letras*/
+/*h1{
+    text-align: center;
+    font-size: 2rem;
+    margin:0 0 20px 0;
+    padding: 0 0 0 0;
+    
+}*/
+.encabezado{
+    width: 100%;
+    margin: 20px;
+    justify-content: center;
+    
+    font-size: 1rem;
+    margin:0 0 20px 0;
+    padding: 0 0 0 0;
+}
+
+/*Tamanio de imagenes */
+
+.producto img{
+    width: 300px;
+    height: 200px;
+
+}
+
+.producto{
+    display:inline-block;
+}
+
+.producto:hover{
+    opacity: 0.5 ;
+    background-color: gray;
+}
+
+.producto p{
+    text-align: center;
+}
+
+/*Fila 1*/
+.Fila1{
+    width: 95%;  
+    height: 30%;
+    padding: 5% 0 0 5%;   
+    flex-direction: row;
+    
+}
+.Fila1 div{
+    margin-left: 5%;
+}
+
+/*Fila 2*/
+.Fila2{
+    width: 95%;
+    height: 30%;
+    padding: 5% 0 0 5%;   
+    /*flex-direction: row;*/
+
+}
+.Fila2 div{
+    margin-left: 5%;
+}
+/*Fila 3*/
+.Fila3{
+    width: 95%;
+    height: 30%;
+    padding: 5% 0 0 5%;
+   /* flex-direction: row;*/
+
+}
+.Fila3 div{
+    margin-left: 5%;
+}
+
+/*Fila 4*/
+.Bioseguridad{
+  
+   width: 100%;      
+   background-image: url(https://st2.depositphotos.com/4018531/6795/i/450/depositphotos_67951755-stock-photo-black-and-white-marble-patterned.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin: 30px 0 0 0;
+   padding: 0px 0 30px 0;
+   text-align: center; 
+   /*display: flex;*/
+     
+}
+
+
+
+.Fila4{
+    width: 95%;
+    padding: 5% 0 0 5%;
+    display: inline-block;
+    
+
+}
+.Fila4 div{
+    margin-left: 5%;
+}
+
+ /*............FOOTER............. */
+
+ footer{
+    width: 100%;
+    background: #202020;
+    color: white;   
+    
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.colum1{
+    max-width: 400px;
+}
+
+.colum1 h1{
+    font-size: 22px;
+}
+
+.colum1 p{
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+
+.colum2{
+    max-width: 400px;
+    
+}
+
+.colum2 h1{
+    font-size: 22px;
+}
+
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row img{
+    width: 36px;
+    height: 36px;
+}
+
+.row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+}
+
+.colum3{
+    max-width: 400px;
+}
+
+.colum3 h1{
+    font-size: 22px;
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+}
+
+.container-footer{
+    width: 100%;  
+    background: #101010;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+}
+
+.copyright{
+    color: #C7C7C7;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.information a{
+    text-decoration: none;
+    color: #C7C7C7;
+}
+
+
+@media screen and (max-width: 1100px){
+    
+    .container-body{
+        flex-wrap: wrap;
+    }
+    
+    .colum1 {
+        max-width: 100%;
+    }
+    
+    .colum2,
+    .colum3{
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .Contenedor{
+        width: 100%;
+        justify-content: center;
+        padding: 0px 20px;
+    }
+    .producto img{
+        width: 100%;
+        height: 25%;
+    }
+    .Bioseguridad{
+        width: 100%;
+        justify-content: center;
+        padding: 20px 20px;
+    }
+    .portada img {
+        background-image: url(/-/Logos/Logo\ peque.png);
+        width: 100%;
+        display: flex;
+    }
+    
+    header{
+        width: 100%;
+    }
+    header label{
+        display:inline-block;
+    }
+    .menu{
+        width: 40%;
+        position: absolute;
+        background: #4e4d4d;
+        margin-left: -70%;
+        transition: all 0.5s;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+    .menu li{
+        border-top:solid 1px white ;
+    }
+    #btn_menu:checked ~ .menu{
+        margin: 0;
+    }
+}
+
+
+
+
+
+
+
+    
