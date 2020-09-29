@@ -8,4 +8,4 @@ var hora=fecha_actual.getHours();
 var minuto=fecha_actual.getMinutes();
 
 
-document.write(dia+' / '+mes+' / '+anio+'   '+hora+':'+minuto);
+document.write(dia+' / '+mes+' / '+anio+'      '+hora+':'+minuto);
