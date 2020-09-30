@@ -90,7 +90,7 @@ header label:hover{
     padding: 0 0 0 0;
     
 }*/
-.encabezado{
+.encabezado {
     width: 100%;
     font-family: 'Peddana', serif;
     margin: 20px;
@@ -99,12 +99,16 @@ header label:hover{
     margin:-30px 0 20px 0;
     padding: 0 0 0 0;
 }
+p{
+  font-family: 'Peddana', serif;  
+  font-size: 28px;
+}
 
 /*Tamanio de imagenes */
 
 .producto img{
     width: 300px;
-    height: 200px;
+    height: 270px;
 
 }
 
@@ -155,16 +159,83 @@ header label:hover{
 .Fila3 div{
     margin-left: 5%;
 }
-
 /*Fila 4*/
+.Fila4{
+    width: 95%;
+    height: 30%;
+    padding: 5% 0 0 5%;
+   /* flex-direction: row;*/
+
+}
+.Fila4 div{
+    margin-left: 5%;
+}
+/*Fila 5*/
+.Fila5{
+    width: 95%;
+    height: 30%;
+    padding: 5% 0 0 5%;
+   /* flex-direction: row;*/
+
+}
+.Fila5 div{
+    margin-left: 5%;
+}
+/*Fila 6*/
+.Fila6{
+    width: 95%;
+    height: 30%;
+    padding: 5% 0 0 5%;
+   /* flex-direction: row;*/
+
+}
+.Fila6 div{
+    margin-left: 5%;
+}
+/*Fila 7*/
+.Fila7{
+    width: 95%;
+    height: 30%;
+    padding: 5% 0 0 5%;
+   /* flex-direction: row;*/
+
+}
+.Fila7 div{
+    margin-left: 5%;
+}
+/*Fila 8*/
+.Fila8{
+    width: 95%;
+    height: 30%;
+    padding: 5% 0 0 5%;
+   /* flex-direction: row;*/
+
+}
+.Fila8 div{
+    margin-left: 5%;
+}
+/*Fila 9*/
+.Fila9{
+    width: 95%;
+    height: 30%;
+    padding: 5% 0 0 5%;
+   /* flex-direction: row;*/
+
+}
+.Fila9 div{
+    margin-left: 5%;
+}
+
+
+/*Fila 6*/
 .Bioseguridad{
   
    width: 90%;      
    background-image: url(https://st2.depositphotos.com/4018531/6795/i/450/depositphotos_67951755-stock-photo-black-and-white-marble-patterned.jpg);
    background-repeat: no-repeat;
    background-size: cover;
-   margin: 30px 5% 0 5%;
-   padding: 0px 0 30px 0;
+   margin: 30px 30px 0px 5%;
+   padding: 10px 0 30px 0; 
    text-align: center; 
 
    /*display: flex;*/
@@ -173,16 +244,40 @@ header label:hover{
 
 
 
-.Fila4{
+.Fila10{
     width: 95%;
-    padding: 5% 0 0 5%;
+    padding: 40px 0px 0px 0px;
+    margin-left: -10px;
     display: inline-block;
     
 
 }
-.Fila4 div{
+.Fila10 div{
     margin-left: 5%;
 }
+/*Fila 11*/
+.Fila11{
+    width: 95%;
+    padding: 40px 0px 0px 0px;
+    display: inline-block;
+    
+
+}
+.Fila11 div{
+    margin-left: 5%;
+}
+/*Fila 12*/
+.Fila12{
+    width: 95%;
+    padding: 40px 0px 0px 0px;
+    display: inline-block;
+    
+
+}
+.Fila12 div{
+    margin-left: 5%;
+}
+
 
  /*............FOOTER............. */
 
