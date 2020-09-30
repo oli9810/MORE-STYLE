@@ -9,17 +9,17 @@
 
 
 body{
-    background:black;
-    
+
+    background:black;   
+
     flex-wrap: wrap;
+
 }
 
 .portada img{
     width: 100%;
     display: flex;
-
 }
-
 
 /*Menu Desplegable*/
 
@@ -329,15 +329,15 @@ header label:hover{
     }
     .Bioseguridad{
         width: 100%;
+        margin:20px 0px 5px 0px;
         justify-content: center;
         padding: 20px 20px;
     }
-    .portada img {
-        background-image: url(/-/Logos/Logo\ peque.png);
+    .portada{
         width: 100%;
-        display: flex;
     }
-    
+   
+
     header{
         width: 100%;
     }
