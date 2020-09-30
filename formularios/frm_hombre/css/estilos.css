@@ -1,17 +1,17 @@
 /*....CONTENEDOR......*/
 .Contenedor{
 
-   width: 90%;      
+   width: 70%;      
    background-image: url(https://st2.depositphotos.com/4018531/6795/i/450/depositphotos_67951755-stock-photo-black-and-white-marble-patterned.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    padding: 10px 0 30px 0; 
-   margin-left: 5%;
+   margin-left: 15%;
   
 }
 
 .swiper-container {
-    width: 80%;
+    width: 50%;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -19,8 +19,8 @@
 .swiper-slide {
     background-position: center;
     background-size: cover;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
 
  /*............FOOTER............. */
@@ -166,7 +166,7 @@
     .portada{
        width: 100%;
     } 
-    
+
     header{
         width: 100%;
     }
