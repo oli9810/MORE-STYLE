@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 0;
 }
-.portada{
+.portada img{
     width: 100%;
     display: flex;
 }

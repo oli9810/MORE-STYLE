@@ -8,7 +8,7 @@ body{
     background: black;
 }
 
-.portada{
+.portada img{
     width: 100%;
     display: flex;
 }
