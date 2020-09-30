@@ -62,15 +62,13 @@ header label:hover{
 }
 
 /*Letras*/
-h1{
-    font-size: 30px;
-}
-.encabezado{
+
+.encabezado h1{
     width: 100%;
     font-family: 'Peddana', serif;
-    margin: 20px;
+    
     justify-content: center;  
-    font-size: 2rem;
+    font-size: 40px;
 }
 p{
   font-family: 'Peddana', serif;  
