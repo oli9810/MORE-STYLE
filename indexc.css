@@ -279,8 +279,9 @@ p{
         justify-content: center;
         padding: 20px 20px;
     }
-    .portada{
+    .portada img{
         width: 100%;
+        display: flex;
     }
 }
 
