@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     font-family: 'Peddana', serif;
-    font-size: 23px;
+    
 }
 body{
     background: black;
@@ -12,54 +12,22 @@ body{
     width: 100%;
     display: flex;
 }
-/*Menu Desplegable*/
-
-/*header{
-    width: 100%;
-    background: #4e4d4d;
-    font-size: 20px;
+.encabezado{
+    font-size: 25px;
 }
-#btn_menu{
-    display: none;
-}
-header label{
-    width: 100px;
-    display: none;
-    padding: 15px 20px;
-    border-right:1px solid rgb(172, 166, 166) ;
-    color: white;
-    text-align: center;
+p, a{
+   font-size:  20px;
 }
 
-header label:hover{
-    cursor: pointer;
-    background: rgba(0, 0,0, 0.3);
-}
-
-.menu ul{
-    margin: 0px;
-    list-style: none;
-    padding: 0px;
-    display: flex;
-    justify-content: center;
-}
-.menu li:hover{
-    background: rgba(0, 0,0, 0.3);
-}
-.menu li a{
-    display: block;
-    padding: 15px 20px;
-    color: rgba(255, 255, 255, 0.801);
-} */
 /*CONTENEDOR*/
 .contenedor{
-    width: 30%;
+    width: 60%;
     background-image: url(https://st2.depositphotos.com/4018531/6795/i/450/depositphotos_67951755-stock-photo-black-and-white-marble-patterned.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 10px 0px 20px 70px;
     color: black;
-    margin:0px 0px 0px 35%;
+    margin:0px 0px 0px 20%;
 }
 /*............FOOTER............. */
 
@@ -196,27 +164,5 @@ header label:hover{
         width: 100%;
     }
    
-    header{
-        width: 100%;
-    }
-    header label{
-        display:inline-block;
-    }
-    .menu{
-        width: 40%;
-        position: absolute;
-        background: #4e4d4d;
-        margin-left: -70%;
-        transition: all 0.5s;
-    }
-    .menu ul{
-        flex-direction: column;
-    }
-    .menu li{
-        border-top:solid 1px white ;
-    }
-    #btn_menu:checked ~ .menu{
-        margin: 0;
-    }
 }
 
