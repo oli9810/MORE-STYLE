@@ -3,6 +3,8 @@
    padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    font-family: 'Peddana', serif;
+    font-size: 23px;
     
 }
 
@@ -82,21 +84,20 @@ header label:hover{
 }
 
 /*Letras*/
-/*h1{
+h1{
     font-family: 'Peddana', serif;
     margin-left: 100px;   
     font-size: 2rem;
     margin:0 0 20px 0;
-    padding: 0 0 0 0;
     
-}*/
+}
 .encabezado{
     width: 100%;
     font-family: 'Peddana', serif;
     margin: 20px;
     justify-content: center;  
     font-size: 1rem;
-    margin:-30px 0 20px 0;
+    margin:0px 0 20px 0;
     padding: 0 0 0 0;
 }
 
@@ -104,7 +105,7 @@ header label:hover{
 
 .producto img{
     width: 300px;
-    height: 200px;
+    height: 250px;
 
 }
 
@@ -163,8 +164,8 @@ header label:hover{
    background-image: url(https://st2.depositphotos.com/4018531/6795/i/450/depositphotos_67951755-stock-photo-black-and-white-marble-patterned.jpg);
    background-repeat: no-repeat;
    background-size: cover;
-   margin: 30px 5% 0 5%;
-   padding: 0px 0 30px 0;
+   margin: 30px 5% 10px 5%;
+   padding: -20px 0 0px 0;
    text-align: center; 
 
    /*display: flex;*/
@@ -175,7 +176,7 @@ header label:hover{
 
 .Fila4{
     width: 95%;
-    padding: 5% 0 0 5%;
+    padding: 30px 0px 0px 0px;
     display: inline-block;
     
 
@@ -296,7 +297,9 @@ header label:hover{
     text-decoration: none;
     color: #C7C7C7;
 }
-
+p{
+    margin: 0px;
+}
 
 @media screen and (max-width: 1100px){
     
