@@ -16,7 +16,10 @@ body {
 .encabezado{
     font-size: 25px;
 }
-p, a{
+label{
+    font-size: 15px;
+}
+p a{
    font-size:  20px;
 }
 /*Contenedor*/
@@ -170,7 +173,7 @@ p, a{
 }
 
 @media screen and (max-width:500px){
-    .contenedor{
+    .Contenedor{
         width: 100%;
         margin: 0px;
     }
